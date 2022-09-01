@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right, #00aaff,#00ff66);
+
+}
+
+
+
+
+.calculator-cont{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3,100px);
+}
+.calculator-cont > button{
+    cursor: pointer;
+font-size: 2rem;
+padding: 10px 15px;
+border: 1px solid white;
+outline: none;
+background-color: rgba(255, 255, 255, .75);
+
+}
+
+.calculator-cont > button:hover{
+
+    background-color: rgba(200,200,200.9);
+    
+    }
+    .calculator-cont > :first-child{
+        grid-column: 1/-1;
+        padding: 30px 35px;
+        text-align: end;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        word-wrap: break-word;
+         word-break: break-all;
+         background-color: rgba(0, 0, 0, .75);
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
